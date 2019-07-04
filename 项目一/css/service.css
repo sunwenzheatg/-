@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    width:100%;
+   
+}
+.title>.header{ 
+   width: 100%;
+   height: 30px;
+   background: #000;
+   position: fixed;
+    top:0;
+    left:0;
+    bottom: 0;
+    z-index: 10000;
+}
+.title>.header>ul{
+    float: right;
+    list-style-type: none;
+}
+.title>.header>ul>li{
+    float: left;
+    width: 70px;
+    line-height: 30px;
+}
+.title>.header>ul>li>a{
+    text-decoration: none; 
+    font-size: 10px; 
+    color: rgb(206, 203, 203);
+}
+.title>.header>ul>li>a:hover{
+    color: rgb(241, 219, 12);
+}
+nav.navbar{
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10000;
+}
+.banner>.first-banner{
+    width: 100%;
+    margin-top:80px;
+    height: 80px;
+}
+.banner>.first-banner>ul{
+    list-style-type: none;
+    margin-top: -40px;
+ 
+}
+.banner>.first-banner>ul>li{
+    float: left;
+    width: 90px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    background: rgba(15, 15, 15, 0.5);
+}
+.banner>.first-banner>ul>li>a{
+    line-height: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px; 
+}
+.first-banner>.logo-one>ul{
+    list-style-type: none;
+    margin-top: -42px;
+    margin-left: 35px;
+    line-height: 40px;
+}
+.first-banner>.logo-one>ul>li{
+    float: left;
+    width: 80px;
+    height: 40px;   
+    text-align: center;
+    margin-right: 10px;
+    background:  rgba(15, 15, 15, 0.7);
+}
+.first-banner>.logo-one>ul>li>a{
+    color: #fff;
+}
+.first-banner>.container>.row.title-one{
+    font-size: 18px;
+}
+.first-banner>.container>.row>div>a{
+    color: #000;
+}
+.first-banner>.container>.row>div>a:hover{
+    color: #f00;
+}
+.footer{
+    width: 100%;
+    height: 260px;
+    border: 1px solid #000;
+    background: rgb(34, 34, 34);
+    margin-top: 600px;
+}
+.footer>.footer-one{
+    width: 100px;
+    height: 120px;
+  
+    float: left;
+    margin-left: 120px;
+    margin-right: -60px;
+}
+.footer>.footer-one>h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+}
+.footer>.footer-one>p{
+    text-align: center;
+    line-height: 6px;  
+}
+.footer>.footer-one>p>a{
+    color: rgb(126, 123, 123);
+    font-size: 13px;
+}
+.footer>.copyright{
+    width: 100%;
+    height: 55px;
+    background: #000;
+    margin-top: 205px;
+}
+.footer>.copyright>p{
+    line-height: 55px;
+    margin-left: 100px;
+    color: #cac7c7;
+}
+.footer>.copyright>p>a{
+    margin-left: 580px;
+    color:  #cac7c7;
+}
